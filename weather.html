@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-<!-- Student Name:   -->
+<!-- Student Name: Mishra, Prajal ; Project Name: Project 1 (October 19, 2016)-->
 <html lang="en">
   <head>
     <title>A Weather Web Application</title>
     <meta charset="utf-8"/>
     <script type="text/javascript" src="weather.js"></script>
+    <link rel="stylesheet" type="text/css" href="weather.css">
   </head>
-  <body onload="initialize();">
+  <body>
+      
     <form>
        <label>City: <input type="text" id="form-input"/></label>
        <input type="button" onclick="sendRequest();" value="Display Info"/>
+       
     </form>
+    <div id = "display">
+      <div id = "cityName">
+        <h3>City Name: </h3> 
+            <p id="name"> <!-- Here name will come --> </p><br>
+        <h2>Advice: </h2>
+            <p id="advice"> <!-- Here name will come --> </p><br>
+        <h3>Geo Coordinates: </h3> 
+            <p id="geo"> <!-- Here name will come --> </p><br>
+      <h3>Sunrise: </h3> 
+            <p id="sunrise"> <!-- Here name will come --> </p><br>
+      <h3>Sunset: </h3> 
+            <p id="sunset"> <!-- Here name will come --> </p><br>
+      <h3>Pressure: </h3> 
+            <p id="pressure"> <!-- Here name will come --> </p><br>
+      <h3>Humidity: </h3> 
+            <p id="humidity"> <!-- Here name will come --> </p><br>
+      <h3>Temperature: </h3> 
+            <p id="temp"> <!-- Here name will come --> </p><br>
+      <h3>Minimum Temperature: </h3> 
+            <p id="minTemp"> <!-- Here name will come --> </p><br>
+      <h3>Maximum Temperature: </h3> 
+            <p id="maxTemp"> <!-- Here name will come --> </p><br>
+      <h3>Visibility: </h3> 
+            <p id="visibility"> <!-- Here name will come --> </p><br>
+      <h3>Clouds: </h3> 
+            <p id="clouds"> <!-- Here name will come --> </p><br>
+      
+      </div>
+    </div>  
     <div id="output">&nbsp;</div>
   </body>
 </html>

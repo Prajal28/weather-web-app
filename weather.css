@@ -1,0 +1,21 @@
+* {
+	margin: 0px 0px 0px 10px;
+	font-weight: bold;
+
+}
+
+form {
+	margin-top: 10px;
+}
+html {
+	width: 100%;
+	height: 100%;
+	background: #ffffff url(https://www.dcccd.edu/SS/Academics/ts/transfercriteria/PublishingImages/UTA.jpg) no-repeat;
+	background-size: cover;
+}
+
+#display {
+	margin-top: 30px;
+	visibility: hidden;
+}
+
